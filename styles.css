@@ -116,3 +116,24 @@ width: 30%;
     background-color: #ffc78f;
 
 }
+#bullGuard {
+    display: flex;
+}
+img #bullGuard {
+    float: left;
+}
+#tableTalk {
+    background-color: #ffc78f;
+}
+.candle-display {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+img .candle-display {
+    
+}
+p .candle-display {
+    /* display: flex;
+    flex-direction: column; */
+}
