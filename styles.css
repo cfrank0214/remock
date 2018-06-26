@@ -1,0 +1,64 @@
+li {
+    list-style-type: none;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #ffc78f;
+    padding: 8px;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Geneva";
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add a black background color to the top navigation */
+.midNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #bfdcd3;
+    padding: 8px;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.midNav a {
+    color: #94677a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Geneva";
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.midNav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.headersub {
+    background-image: url(http://247moms.com/wp-content/uploads/2014/12/xsubscribe-background.jpg.pagespeed.ic.5NeV_piZJ0.jpg);
+    float: right;
+    width: 499px;
+    height: 132px;
+}
+.headersubform {
+    text-align: right;
+}
